@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ExOOP01.Models
 {
-    class Cliente
+    public class Cliente
     {
-        int codigo;
-        string nome;
-        string email;
-        string cidade;
-        string uf;
+       public int codigo;
+       public string nome;
+       public string email;
+       public string cidade;
+       public string uf;
     }
 }

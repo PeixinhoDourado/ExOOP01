@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace ExOOP01.Models
 {
-    class Pedido
+    public class Pedido
     {
-        int codigo;
-        DateTime dataHora;
-        string observacoes;
-        double valor;
-        Cliente cliente;
+       public int codigo;
+       public DateTime dataHora;
+       public string observacoes;
+       public double valor;
+       public Cliente cliente;
         
     }
 }
