@@ -8,11 +8,20 @@ namespace ExOOP01.Models
 {
     public class Pedido
     {
-       public int codigo;
-       public DateTime dataHora;
-       public string observacoes;
-       public double valor;
-       public Cliente cliente;
-        
+        public int codigo;
+        public DateTime dataHora;
+        public string observacoes;
+        public double valor;
+        public Cliente cliente;
+        private double valorUnitario;
+        private int quantidade;
+
+        public void CalculaTotal()
+        {
+            valor = valorUnitario * quantidade;
+        }
+
     }
+
+
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ExOOP01.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,8 @@ namespace ExOOP01
     {
         static void Main(string[] args)
         {
+            var pedido = new Pedido();
+            
             Console.Write("Hellou World");
         }
     }
