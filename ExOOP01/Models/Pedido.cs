@@ -21,6 +21,12 @@ namespace ExOOP01.Models
             valor = valorUnitario * quantidade;
         }
 
+        public void AumentarQuantidade(int quantidade)
+        {
+            this.quantidade += quantidade;
+            CalculaTotal();
+        }
+
     }
 
 
