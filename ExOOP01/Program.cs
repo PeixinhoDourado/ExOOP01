@@ -10,6 +10,7 @@ namespace ExOOP01
     {
         static void Main(string[] args)
         {
+            Console.Write("Hellou World");
         }
     }
 }
