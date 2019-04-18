@@ -8,10 +8,10 @@ namespace ExOOP01.Models
 {
     public class Cliente
     {
-       public int codigo;
-       public string nome;
-       public string email;
-       public string cidade;
-       public string uf;
+       private int codigo;
+       private string nome;
+       private string email;
+       private string cidade;
+       private string uf;
     }
 }

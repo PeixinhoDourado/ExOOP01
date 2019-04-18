@@ -11,8 +11,9 @@ namespace ExOOP01
     {
         static void Main(string[] args)
         {
-            var pedido = new Pedido();
+            //var pedido = new Pedido();
             
+
             Console.Write("Hellou World");
         }
     }
